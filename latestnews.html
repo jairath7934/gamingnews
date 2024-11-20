@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latest News - Gaming News Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Specific Styles for Latest News Page */
+        .news-card {
+            background-color: #ffffff;
+            padding: 15px;
+            border: 1px solid #dcdcdc;
+            border-radius: 8px;
+            transition: box-shadow 0.3s;
+        }
+
+        .news-card:hover {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .news-image {
+            background-color: #dcdcdc;
+            height: 200px;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .news-title {
+            font-weight: bold;
+            font-size: 1.2rem;
+            color: #333;
+            margin-bottom: 5px;
+        }
+
+        .news-description {
+            font-size: 1rem;
+            color: #666;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div id="logo">Gaming News</div>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="nav-item">Home</a></li>
+                <li><a href="latestnews.html" class="nav-item">Latest News</a></li>
+                <li><a href="gamereviews.html" class="nav-item">Game Reviews</a></li>
+                <li><a href="#" class="nav-item">Hardware Reviews</a></li>
+                <li><a href="#" class="nav-item">Guides & Tutorials</a></li>
+                <li><a href="#" class="nav-item">eSports Coverage</a></li>
+                <li><a href="#" class="nav-item">Video Content</a></li>
+                <li><a href="forum.html" class="nav-item active">Community Forum</a></li>
+                <li><a href="aboutus.html" class="nav-item">About Us</a></li>
+                <li><a href="contact.html" class="nav-item">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container">
+        <section class="hero">
+            <div class="hero-overlay">
+                <div>
+                    <h1 class="hero-title">Latest News</h1>
+                    <p>Stay updated with the latest happenings in the gaming world!</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Latest News Section -->
+        <div class="news-grid">
+            <div class="news-card">
+                <div class="news-image" style="background-image: url('images/game1.jpg');"></div>
+                <div>
+                    <h2 class="news-title">Cyber Knights RPG Released</h2>
+                    <p class="news-description">The much-anticipated RPG Cyber Knights is finally here. Explore its futuristic world and deep narrative...</p>
+                </div>
+            </div>
+            <div class="news-card">
+                <div class="news-image" style="background-image: url('images/game2.jpg');"></div>
+                <div>
+                    <h2 class="news-title">eSports League Updates</h2>
+                    <p class="news-description">Catch up on the latest eSports tournaments and upcoming events featuring your favorite teams...</p>
+                </div>
+            </div>
+            <div class="news-card">
+                <div class="news-image" style="background-image: url('images/game3.jpg');"></div>
+                <div>
+                    <h2 class="news-title">2024 Gaming Industry Growth</h2>
+                    <p class="news-description">The gaming industry continues to evolve with record-breaking revenue and innovative new titles...</p>
+                </div>
+            </div>
+            <div class="news-card">
+                <div class="news-image" style="background-image: url('images/game4.jpg');"></div>
+                <div>
+                    <h2 class="news-title">Indie Games on the Rise</h2>
+                    <p class="news-description">Independent developers are creating waves with unique and engaging games capturing audiences worldwide...</p>
+                </div>
+            </div>
+            <div class="news-card">
+                <div class="news-image" style="background-image: url('images/game5.jpg');"></div>
+                <div>
+                    <h2 class="news-title">Console Wars Heat Up</h2>
+                    <p class="news-description">Xbox, PlayStation, and Nintendo are all vying for the top spot with exciting new hardware and games...</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 Gaming News Website. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

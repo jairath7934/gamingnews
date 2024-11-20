@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Forum - Gaming News Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Specific Styles for Community Forum */
+        .forum-section {
+            margin: 20px 0;
+        }
+
+        .forum-card {
+            background-color: #ffffff;
+            padding: 15px;
+            border: 1px solid #dcdcdc;
+            border-radius: 8px;
+            transition: box-shadow 0.3s;
+            margin-bottom: 15px;
+        }
+
+        .forum-card:hover {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .forum-title {
+            font-weight: bold;
+            font-size: 1.2rem;
+            color: #333;
+            margin-bottom: 5px;
+        }
+
+        .forum-snippet {
+            font-size: 0.95rem;
+            color: #666;
+        }
+
+        .create-post-btn {
+            display: inline-block;
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 1rem;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        .create-post-btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div id="logo">Gaming News</div>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="nav-item">Home</a></li>
+                <li><a href="latestnews.html" class="nav-item">Latest News</a></li>
+                <li><a href="gamereviews.html" class="nav-item">Game Reviews</a></li>
+                <li><a href="#" class="nav-item">Hardware Reviews</a></li>
+                <li><a href="#" class="nav-item">Guides & Tutorials</a></li>
+                <li><a href="#" class="nav-item">eSports Coverage</a></li>
+                <li><a href="#" class="nav-item">Video Content</a></li>
+                <li><a href="forum.html" class="nav-item active">Community Forum</a></li>
+                <li><a href="aboutus.html" class="nav-item">About Us</a></li>
+                <li><a href="contact.html" class="nav-item">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container">
+        <section class="hero">
+            <div class="hero-overlay">
+                <div>
+                    <h1 class="hero-title">Community Forum</h1>
+                    <p>Join the conversation, share your ideas, and connect with fellow gamers!</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Forum Introduction -->
+        <div class="forum-section">
+            <a href="createpost.html" class="create-post-btn">Create a New Post</a>
+        </div>
+
+        <!-- Forum Topics -->
+        <div class="forum-section">
+            <h2 class="section-title">Popular Discussions</h2>
+            <div class="forum-card">
+                <h3 class="forum-title">Favorite RPG Games of All Time</h3>
+                <p class="forum-snippet">Join the discussion on the best RPG games ever made and share your favorites...</p>
+                <a href="#" class="read-more">Read More</a>
+            </div>
+            <div class="forum-card">
+                <h3 class="forum-title">Tips for Improving FPS Skills</h3>
+                <p class="forum-snippet">Share and learn tips for improving your skills in first-person shooter games...</p>
+                <a href="#" class="read-more">Read More</a>
+            </div>
+            <div class="forum-card">
+                <h3 class="forum-title">Upcoming Game Releases</h3>
+                <p class="forum-snippet">Discuss the most anticipated game releases and what you're looking forward to...</p>
+                <a href="#" class="read-more">Read More</a>
+            </div>
+            <div class="forum-card">
+                <h3 class="forum-title">Building the Ultimate Gaming PC</h3>
+                <p class="forum-snippet">Tips and recommendations for building a high-performance gaming PC...</p>
+                <a href="#" class="read-more">Read More</a>
+            </div>
+        </div>
+
+        <!-- Recent Posts -->
+        <div class="forum-section">
+            <h2 class="section-title">Recent Posts</h2>
+            <div class="forum-card">
+                <h3 class="forum-title">Best Indie Games of the Year</h3>
+                <p class="forum-snippet">Discover the top indie games that took the gaming community by storm...</p>
+                <a href="#" class="read-more">Read More</a>
+            </div>
+            <div class="forum-card">
+                <h3 class="forum-title">eSports Predictions for 2025</h3>
+                <p class="forum-snippet">Who will dominate the upcoming eSports tournaments? Share your thoughts...</p>
+                <a href="#" class="read-more">Read More</a>
+            </div>
+            <div class="forum-card">
+                <h3 class="forum-title">Top Gaming Accessories</h3>
+                <p class="forum-snippet">Explore the best accessories to enhance your gaming experience...</p>
+                <a href="#" class="read-more">Read More</a>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 Gaming News Website. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
